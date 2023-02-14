@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Source+Code+Pro:ital,wght@0,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-image: url(wallpaper-sky-blue-background-13-1024x640.jpg);
+    width: 15vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    font-size: 20px;
+    padding: 25px 0;
+}
+.main{
+    background-image: url(OIP.jfif);
+    width: 85vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+   background-image: url(free-background-vectors-images-in-AI.jpg);
+    height: 65vh;
+    width: 80vw;
+    margin: 47px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.devInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: bisque;
+    font-family: 'Poppins', sans-serif;
+}
+.hello{
+    font-size: 50px;
+   
+}
+.name{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+    font-size: 30px;
+}
+.devPic img{
+    height: 65vh;
+}
